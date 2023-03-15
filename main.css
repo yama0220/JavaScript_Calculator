@@ -1,0 +1,29 @@
+#result{
+  background-color: black;
+  height: 35px;
+  max-width: 310px;
+  text-align: right;
+  line-height: 35px;
+  font-size: 18px;
+  color: white;
+  padding-right: 5px;
+}
+
+#button{
+  max-width: 315px;
+}
+
+#button > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  font-size: 25px;
+  width: 25%;
+  margin: 2px;
+}
+
+.clear, .equal{
+  width: 50%;
+}

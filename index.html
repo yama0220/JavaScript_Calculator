@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+ </head>
+  
+ <body>
+   <div id="result"></div>
+   <section id="button">
+     <div>
+       <input class="button" type="button" value="7" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="8" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="9" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="+" onclick="get_calc(this)"></input>
+     </div>
+     <div>
+       <input class="button" type="button" value="4" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="5" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="6" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="-" onclick="get_calc(this)"></input>
+     </div>
+     <div>
+       <input class="button" type="button" value="1" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="2" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="3" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="*" onclick="get_calc(this)"></input>
+     </div>
+     <div>
+       <input class="button" type="button" value="0" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="00" onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="." onclick="get_calc(this)"></input>
+       <input class="button" type="button" value="/" onclick="get_calc(this)"></input>
+     </div>
+     <div>
+       <input class="button clear" type="button" value="AC" onclick="get_calc(this)"></input>
+       <input class="button equal" type="button" value="=" onclick="get_calc(this)"></input>
+     </div>
+   </section>
+   <script src="main.js"></script>
+  </body>
+</html>
